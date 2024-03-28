@@ -152,3 +152,5 @@ app.get('/', (req, res) => res.send("Hello"))
 app.listen(port, (req, res) => {
     console.log(`Server is listening on port ${port}...`)
 });
+
+export default app;
